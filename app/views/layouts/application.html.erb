@@ -34,6 +34,14 @@
     <br class="clear"/>
     
     <%= yield %>
-    
+    <div class="footer">
+      <div class="row">
+       <div class="col-6">        <%= link_to "This isn't enough, I need more", "#", class: 'next-quote' %>
+       </div>
+       <div class= "col-6">
+          Proudly made in Santa Fe Springs, CA by Patrick Lewis
+       </div>
+      </div>
+    </div>
   </body>
 </html>
